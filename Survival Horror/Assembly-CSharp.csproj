@@ -52,13 +52,11 @@
     <UnityVersion>2020.1.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scripts\Flashlight.cs" />
     <Compile Include="Assets\First person controller\Components\Jump.cs" />
     <Compile Include="Assets\First person controller\FirstPersonLook.cs" />
     <Compile Include="Assets\First person controller\Components\Zoom.cs" />
+    <Compile Include="Assets\cameraLook.cs" />
     <Compile Include="Assets\First person controller\FirstPersonMovement.cs" />
     <Compile Include="Assets\First person controller\Components\GroundCheck.cs" />
     <Compile Include="Assets\First person controller\Components\Crouch.cs" />
