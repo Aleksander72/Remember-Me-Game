@@ -5,7 +5,6 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour
 {
     public new Light light;
-    public GameObject flashlight;
     void Start()
     {
         light.GetComponent<Light>();
@@ -13,8 +12,7 @@ public class Flashlight : MonoBehaviour
     }
     void Update()
     {
-        //flashlight.transform.position = Camera.main.transform.position + Vector3.right * 1.2f + Vector3.forward * 1.43f;
-
+        
         if (Input.GetKeyDown(KeyCode.F))
         {
             if (light.enabled == false)
@@ -23,9 +21,11 @@ public class Flashlight : MonoBehaviour
             }
             else if(light.enabled == true)
             {
+
                 light.enabled = false;
             }
         }
+
     }
 
 }
